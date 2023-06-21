@@ -1,9 +1,12 @@
 package TestLayer;
 
+import PageLayer.LoginPage;
+
 public class LoginPageTest {
 
 	public static void main(String[] args) {
-		System.out.println("LoginPageTest Class");
+		LoginPage loginPage =new LoginPage();
+		loginPage.login();
 
 	}
 

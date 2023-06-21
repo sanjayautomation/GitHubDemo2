@@ -1,10 +1,7 @@
 package PageLayer;
 
 public class LoginPage {
-
-	public static void main(String[] args) {
-		System.out.println("LoginPage"); 
-
+	public void login() {
+		System.out.println("LoginPage");
 	}
-
 }
